@@ -27,7 +27,7 @@ x= input("Enter the message to trigger the bot\n")
 async def greeting(event):
     i=1
     print("Enter the message")
-    msg= input()
+    msg= open("C:\\Users\\Spider\\Downloads\\TelegramPythonBot\\msg.txt")
     print("Enter the delay you want (in seconds)")
     sec= int(input())
     
